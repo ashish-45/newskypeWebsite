@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = ({title,names,description,images}) => {
     return (
-        <div>
+        <div >
             <div class="card h-200" style={{ width: '20rem'}}>
                 <img class="card-img-top" src={images} alt="Card image cap" />
                 <div class="card-body">
